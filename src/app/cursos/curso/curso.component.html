@@ -1,0 +1,14 @@
+
+    
+      <a [routerLink]="['/cursos', curso.id]">
+        <div class="place-info-box">
+          <span class="place-info-box-icon"><img [src]="curso.banner" /></span>
+
+          <div class="place-info-box-content">
+            <span class="place-info-box-text">{{curso.title}}</span>
+            <span class="place-info-box-detail">{{curso.teachers_names}}</span>
+          </div>
+          <!-- /.info-box-content -->
+        </div>
+      </a>
+     

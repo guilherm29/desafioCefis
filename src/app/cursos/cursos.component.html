@@ -1,0 +1,22 @@
+
+
+      
+      <section class="content-header">
+        <h1>
+          Todos os Cursos
+        </h1>
+      </section>
+
+
+      <section class="content">
+
+        <div class="row">
+                <div *ngFor="let curso of cursos" class="col-sm-6 col-xs-12">
+                 <desafio-curso [curso]="curso"></desafio-curso>
+                </div>
+                <!-- /.col -->
+
+
+      <!-- /.content -->
+    </div>
+      </section>
